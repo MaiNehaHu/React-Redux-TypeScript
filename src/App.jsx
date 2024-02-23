@@ -17,7 +17,7 @@ function App() {
 
   return (
     <React.Fragment>
-      <BrowserRouter basename='/demoApp'>
+      <BrowserRouter basename='/React-Redux-TypeScript'>
         <Routes>
           <Route path='/' element={
             newUser ? <SignupPage /> : <LoginPage />} />
