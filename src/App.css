@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.flex-center-mid {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputField {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: larger;
+}
+
+.Btn {
+  padding-block: 0.7rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: larger;
+  font-weight: bold;
+  background-color: #4b99ff;
+
+  &:hover {
+    background-color: #68a7f8;
+  }
+}

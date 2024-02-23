@@ -1,0 +1,15 @@
+.DashBoard {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #032d65;
+
+    &__details {
+        gap: 1rem;
+        border-radius: 1rem;
+        padding: 1rem 3rem;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+    }
+}

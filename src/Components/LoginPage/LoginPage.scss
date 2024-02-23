@@ -1,0 +1,16 @@
+.LoginPage {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: rgb(46, 38, 71);
+
+    &__form {
+        gap: 2rem;
+        display: flex;
+        padding: 2rem 3rem;
+        border-radius: 1rem;
+        align-items: stretch;
+        flex-direction: column;
+        background-color: #fff;
+    }
+}
