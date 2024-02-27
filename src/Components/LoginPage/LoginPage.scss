@@ -14,3 +14,12 @@
         background-color: #fff;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .LoginPage {
+        &__form {
+            font-size: x-small;
+            padding: 1.5rem 2.5rem;
+        }
+    }
+}
