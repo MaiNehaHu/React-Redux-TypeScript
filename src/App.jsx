@@ -11,6 +11,7 @@ function App() {
   const newUser = useSelector((state) => {
     return state.newUserStatus.isNewUser;
   })
+  
   const loggedUser = useSelector((state) => {
     return state.loggedUser;
   })
